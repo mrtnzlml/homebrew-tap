@@ -1,24 +1,24 @@
 class Rdc < Formula
   desc "Rossum Deployment as Code -- CLI for snapshotting and deploying Rossum.ai configurations"
   homepage "https://github.com/mrtnzlml/rdc"
-  version "0.13.0"
+  version "0.14.0"
   license "WTFPL"
 
   on_macos do
     on_arm do
-      url "https://github.com/mrtnzlml/rdc/releases/download/v0.13.0/rdc-0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6ed0a14e3b0a44f331e96c7cff00efefefb2d02b4a227bedb0e6c303edc5b706"
+      url "https://github.com/mrtnzlml/rdc/releases/download/v0.14.0/rdc-0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "146ecdf01f8335089a676fb83ea5744861fa295a7dc08134e8b87ad22269f0a6"
     end
     on_intel do
-      url "https://github.com/mrtnzlml/rdc/releases/download/v0.13.0/rdc-0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f8e1ad5abe7fac5598d39aa54d0770b147d93dad94f80613277060aab36dfc7a"
+      url "https://github.com/mrtnzlml/rdc/releases/download/v0.14.0/rdc-0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0137065fb928c3e9c8c68216a18b9fa4acb6c7a855d9b0fb4b39ef3f87d744b7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mrtnzlml/rdc/releases/download/v0.13.0/rdc-0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ef8f18b51bd585ad1aed9f88213862aa0783eabee762d0cda8c30d6819b060b8"
+      url "https://github.com/mrtnzlml/rdc/releases/download/v0.14.0/rdc-0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5b4e318324ea2aa74c2be8370cf7570cdd150c4f37ed6a8fe5275e11e847ef9e"
     end
   end
 
