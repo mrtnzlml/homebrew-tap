@@ -7,18 +7,18 @@ class Rdc < Formula
   on_macos do
     on_arm do
       url "https://github.com/mrtnzlml/rdc/releases/download/v0.15.0/rdc-0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "31ed1d9434a59f6766bdacfb371f1c3ce292758b523fc7b1028657cf7d616f92"
+      sha256 "da0843f8e835ef52b0cf880e8ebf2c10661e42c2eed0f2c41d43339d085b9f0f"
     end
     on_intel do
       url "https://github.com/mrtnzlml/rdc/releases/download/v0.15.0/rdc-0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5a47160638d53640d6807aefab087d20dc4910108daf294f938f069fb4a7d325"
+      sha256 "5f07aebd9564f5741219e74067eace011b6681562eebff16b8f52cba29a9a492"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mrtnzlml/rdc/releases/download/v0.15.0/rdc-0.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "da40fc7ff6426362fdd0117e9b4d407be8be31090832d2ccc5ebe1a8e2d5e8ff"
+      sha256 "c18104bdcee5e16302a47620ce9d2745258a99c5b8294ad905d41bff8bbf51a1"
     end
   end
 
